@@ -1,0 +1,41 @@
+.highlighted {
+    background-color: yellow;
+}
+
+#third-paragraph {
+    font-style: italic;
+}
+
+li#item1 {
+    font-weight: bold;
+    color: burlywood
+}
+
+#item2 {
+    font-style: italic;
+    color: red
+}
+
+#item3 {
+    background-color: beige;
+}
+
+a {
+    color: blue;
+}
+
+ul.firstList + [href="#"] {
+    background-color: violet;
+}
+
+div p {
+    color:cornflowerblue
+}
+
+p + input#inputText {
+    background-color: aquamarine;
+}
+
+.highlighted, .firstList {
+    font-size: larger;
+}

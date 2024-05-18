@@ -1,0 +1,23 @@
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: large;
+}
+
+.highlight {
+  background-color: blanchedalmond;
+}
+
+#main-title {
+  color: aqua;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+li {
+  color: brown;
+}
