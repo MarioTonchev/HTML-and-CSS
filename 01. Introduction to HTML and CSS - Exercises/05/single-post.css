@@ -1,0 +1,9 @@
+blockquote > p {
+    background-color: #eee;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+blockquote > footer {
+    font-size: larger;
+}

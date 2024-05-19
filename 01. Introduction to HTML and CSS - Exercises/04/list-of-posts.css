@@ -1,0 +1,17 @@
+time {
+  font-style: oblique;
+  color: gray;
+}
+
+span {
+  font-weight: bolder;
+  color: blue;
+}
+
+#article1 p {
+  color: darkgreen;
+}
+
+#article2 p {
+  color: darkmagenta;
+}

@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+details {
+  margin-top: 20px;
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+p {
+  font-size: larger;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+footer {
+  padding: 1em 0;
+  width: 100%;
+  background-color: purple;
+  margin-top: 20px;
+}
+
+li {
+  font-size: larger;
+}
