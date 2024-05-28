@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.social-media-icons div {
+    display: inline-block;
+    border: 2px lightgrey solid;
+    border-radius: 50%;
+    font-size: 1.5em;
+    padding: 0.5em;
+    padding-inline: 0.6em;
+    background-color: #d3d3d3;
+    margin-left: 0.9em;
+    margin-top: 0.6em;
+}
+
+h2 {
+    margin-top: 1.3em;
+    margin-left: 0.8em;
+}

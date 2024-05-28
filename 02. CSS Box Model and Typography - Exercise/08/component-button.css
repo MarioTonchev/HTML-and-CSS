@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a, button {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.button1 {
+    border: 2px solid lightgray;
+    border-radius: 5%;
+    padding: 1em;
+    background-color: lightgray;
+}
+
+.button-primary {
+    border: 2px solid darkorange;
+    border-radius: 5%;
+    padding: 1em;
+    background-color: darkorange;
+}
+
+.button-secondary {
+    border: 2px solid blanchedalmond;
+    border-radius: 5%;
+    padding: 1em;
+    background-color: blanchedalmond;
+}
+
+.button-outline {
+    border: 2px solid lightgray;
+    border-radius: 5%;
+    padding: 1em;
+    background-color: white;
+}
+
+.button-icon {
+    border: 2px solid lightgray;
+    border-radius: 5%;
+    padding: 1em;
+    background-color: lightgray;
+}
+
+button {
+    width: 102px;
+    height: 53px;
+    font-size: 1em;
+    cursor: pointer;
+}

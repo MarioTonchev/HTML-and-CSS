@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.accordion {
+    margin: 6em auto;
+    max-width: 1000px;
+    border: 2px solid lightgray;
+}
+
+div div {
+    padding: 1.4em;
+}
+
+h3 {
+    display: inline;
+    font-size: medium;
+}
+
+.accordion details summary:before {
+    display: inline-block;
+    content: '>';
+    margin-right: 0.5em;
+}
+
+details {
+    line-height: 1.3em;
+    cursor: pointer;
+}
+
+details p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 400;
+}
+
+.accordion details[open] summary:before {
+    content: '^';
+    transform: rotate(180deg);
+}

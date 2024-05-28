@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: 16px/1.5 "Lato", Verdana, sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.card {
+    max-width: 450px;
+    margin: 5em auto;
+    border-radius: 1%;
+    background-color: white;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+}
+
+.card-content {
+    padding: 1em 2.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card > img {
+    border-radius: 1%;
+    max-width: 450px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 0.5em;
+}
+
+p + p {
+    margin-top: 3em;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
