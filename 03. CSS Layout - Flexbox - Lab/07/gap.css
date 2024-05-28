@@ -1,0 +1,32 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.flex-container > div {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border: 2px solid blue;
+    padding: 1em;
+}
+
+.gap-row {
+  gap: 2em 0;
+}
+
+.gap-col {
+    gap: 0 2em;
+}
+
+.flex-container .gap {
+    gap: 2em;
+    height: 250px;
+}
+
+.flex-item {
+    border: 2px solid black;
+    background-color: #eee;
+    padding: 20px;
+}

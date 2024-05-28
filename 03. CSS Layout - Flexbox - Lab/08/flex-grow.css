@@ -1,0 +1,38 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.flex-container > div {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border: 2px solid blue;
+    padding: 1em;
+}
+
+.flex-grow-1 > div {
+    flex-grow: 1;
+}
+
+.flex-grow-second-child :nth-child(2) {
+    flex-grow: 1;
+}
+
+.flex-grow-proportionally :nth-child(1) {
+    flex-grow: 1;
+}
+
+.flex-grow-proportionally :nth-child(2) {
+    flex-grow: 2;
+}
+
+.flex-grow-proportionally :nth-child(3) {
+    flex-grow: 3;
+}
+
+.flex-item {
+    border: 2px solid black;
+    background-color: #eee;
+    padding: 20px;
+}

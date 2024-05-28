@@ -1,0 +1,40 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.flex-direction {
+    width: 400px;
+    display: flex;
+    border: 2px solid blue;
+    padding: 1em;
+}
+
+.flex-direction-row-reverse {
+    width: 400px;
+    display: flex;
+    border: 2px solid blue;
+    padding: 1em;
+    flex-direction: row-reverse;
+}
+
+.flex-direction-column {
+    width: 400px;
+    display: flex;
+    border: 2px solid blue;
+    padding: 1em;
+    flex-direction: column;
+}
+
+.flex-direction-column-reverse {
+    width: 400px;
+    display: flex;
+    border: 2px solid blue;
+    padding: 1em;
+    flex-direction: column-reverse;
+}
+
+.flex-item {
+    border: 2px solid black;
+    background-color: #eee;
+    padding: 20px;
+}
