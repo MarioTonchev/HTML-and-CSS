@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5em;
+    background-color: lightgrey;
+}
+
+h2 {
+    margin-bottom: 1.1em;
+}
+
+h2, h3 {
+    font-weight: 800;
+}
+
+p {
+    font-weight: 600;
+}
+
+footer {
+    padding: 2em;
+}
+
+header p {
+    font-style: italic;
+    color: darkgrey;
+    font-size: 1.1em;
+}
+
+footer p {
+    color: darkgrey;
+}
+
+.rules {
+    border: 1px solid beige;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 1200px;
+    height: auto;
+    margin: 4em auto;
+    background-color: white;
+}
+
+.flex-container .rules * {
+    display: flex;
+    align-content: center;
+}
+
+.flex-container .rules div {
+    justify-content: space-evenly;
+}
+
+.flex-container .rules header {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em;
+    width: 600px;
+    margin-left: 20em;
+}
+
+.flex-container .rules footer {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em;
+    width: 600px;
+    margin-left: 20em;
+}
+
+.top-border { 
+    width: 100px;
+    border-top: 2px lightgray solid;
+    border-radius: 1.1%;
+    margin-inline-start: 35em;
+}
+
+.rules .first-rule {
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+    width: 360px;
+    padding: 2em;
+}
+
+.rules .second-rule {
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+    width: 360px;
+    
+    margin-inline-start: 4em;
+}
+
+.rules .third-rule {
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+    width: 360px;  
+ 
+    margin-inline-start: 1em;
+}
+
+.bottom-border { 
+    width: 100px;
+    border-top: 2px lightgray solid;
+    border-radius: 1.1%;
+    margin-inline-start: 35em;
+}

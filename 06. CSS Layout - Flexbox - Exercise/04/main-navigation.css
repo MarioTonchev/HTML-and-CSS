@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: darkorange;
+    font-weight: bold;
+    background-color: white;
+}
+
+header {
+    margin: 2.5em 2em;
+    border: 1px darkgrey solid;
+    border-radius: 0.3em;
+    padding: 0.7em;
+    background-color: #eee;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    gap: 0.8em;
+}
+
+nav p {
+    border: 1px darkgrey solid;
+    border-radius: 0.3em;
+    padding: 0.8em;
+    background-color: white;
+}

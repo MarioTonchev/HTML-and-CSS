@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #eee;
+}
+
+.calendar {
+    max-width: 1000px;
+    margin: 4em auto;
+    background-color: white;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+    padding: 0.2em;
+    border: 1px solid lightgray;
+    border-radius: 0.3em;
+    display: flex;
+}
+
+.calendar div *{
+    border: 2px solid #eee;
+    padding: 2em;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.calendar .week {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar .week p:nth-child(1) {
+    flex: 0 0 100%;
+}
+
+.calendar .week p:nth-child(7) {
+    flex: 0 0 100%;
+}
+
+.calendar .notes {
+    display: flex;  
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.calendar .notes > p {
+    flex: 1;
+}

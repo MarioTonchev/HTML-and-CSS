@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #eee;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    gap: 2em;
+    justify-content: center;
+}
+
+.image {
+    display: flex;  
+    flex-wrap: wrap;
+    border: 10px solid black;
+    border-radius: 0.3em;
+    box-shadow: 0, 0, 1em, 0 rgb(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 1em;
+}
+
+img {
+    flex: 0 0 100%;
+    max-height: 600px;
+    width: 400px;   
+    margin-bottom: 2em;
+}
+
+.image {
+    align-items: flex-end;
+}
+
+p {
+    font-style:italic;
+    opacity: 50%;
+}
